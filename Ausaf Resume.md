@@ -104,7 +104,7 @@ Principal AI Engineer with 5 years of experience (3 years in Australia) speciali
 <span class="context">Leading AI strategy and deployment for Australia’s leading digital equity crowdfunding platform.</span>
 
 <span class="sub-sect">Product Strategy & Revenue Growth</span>
-- **Spearheaded** the conceptualization and launch of a new **Venture Benchmarking Data Product** which measures 30+ growth metrics (founder social signals, team sentiment) from previously successful ventures to provide benchmarks for new startups to raise capital; revenue stream projected at **$500k ARR**.
+- **Spearheaded** the conceptualization and launch of a new **Venture Benchmarking Data Product** which measures 30+ growth metrics from previously successful ventures to provide benchmarks for new startups to raise capital; revenue stream projected at **$500k ARR**.
 - **Engineered** a proprietary **Investor Likelihood Engine** to calculate likelihood to investment scores using regression analysis based on existing and enriched data for identifying "hidden" wholesale-qualified investors; contributed to **>$2M in investments**.
 - **Optimized** the Founder onboarding funnel by architecting an **Agentic Data Enrichment layer**; leveraged autonomous web-scraping to pre-populate venture profiles, reducing registration friction and slashing profile completion time from 4 hours to <60 minutes, **improving conversion by 20%**.
 
