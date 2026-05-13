@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ausaf QS - Resume</title>
+<style>
+  /* Global Layout */
+  body {
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
+    line-height: 1.4;
+    color: #000 !important;
+    background-color: #fff !important;
+    max-width: 850px;
+    margin: 40px auto;
+    font-size: 10.5pt;
+    padding: 0 20px;
+  }
+
+  /* Vertical Line Separator */
+  .pipe { color: #666; margin: 0 10px; font-weight: 300; }
+
+  /* Header Styling */
+  h1 { text-align: center; margin-bottom: 4px; font-size: 24pt; letter-spacing: -1px; border: none; }
+  .contact-bar { text-align: center; font-size: 9.5pt; color: #333; margin-bottom: 15px; }
+
+  /* Section Headings */
+  h2 {
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 2px;
+  }
+
+  /* Experience & Education Headers */
+  .exp-header {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 11pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .company { font-weight: bold; }
+  .edu-header-plain { font-weight: normal; font-size: 11pt; }
+  .date { font-weight: normal; font-size: 10pt; color: #333; }
+
+  /* Promotion timeline */
+  .promotion-line {
+    font-size: 9.5pt;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+
+  /* Context Styling */
+  .context {
+    font-style: italic;
+    color: #555;
+    font-size: 9.5pt;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+
+  /* Magnit section spacing (page break removed) */
+  .magnit-section {
+    margin-top: 18px;
+  }
+
+  /* Skills Styling */
+  .skill-item { margin-bottom: 5px; display: block; font-weight: normal; text-align: justify; }
+  .category { font-weight: bold; }
+
+  /* Sub-headings */
+  .sub-sect {
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    display: block;
+    text-decoration: underline;
+  }
+
+  ul { margin-top: 0; padding-left: 20px; }
+
+  /* Bullet Point Styling */
+  li {
+    margin-bottom: 4px;
+    text-align: justify;
+    hyphens: none;
+    word-break: keep-all;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+  }
+
+  /* Summary Styling */
+  .summary-text {
+    text-align: justify;
+    hyphens: none;
+    word-break: keep-all;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>AUSAF QS</h1>
+<div class="contact-bar">
+  Gungahlin, ACT, 2912 <span class="pipe">|</span> +61 403 138 910 <span class="pipe">|</span> ausaf1996@gmail.com
+</div>
+
+<h2>Summary</h2>
+<div class="summary-text">
+  Principal AI Engineer with 5+ years of experience (3+ years in Australia) specializing in the full-lifecycle delivery of Agentic AI systems and cloud-native data products on AWS, with deep integration across Salesforce. Expertise in <b>Product Strategy, Agentic Architecture, and AI Governance</b> with a proven track record of <b>integrating AI into business processes</b> to drive measurable revenue growth.
+</div>
+
+<h2>Experience</h2>
+
+<div class="exp-header">
+  <span class="company">Principal AI Engineer <span class="pipe">|</span> VentureCrowd <span class="pipe">|</span> Australia</span>
+  <span class="date">Jan 2023 &ndash; Present</span>
+</div>
+<div class="promotion-line">
+  Jan 2023: Data Scientist &rarr; Feb 2024: Senior Data Scientist &rarr; Oct 2025: Principal AI Engineer
+</div>
+
+<span class="sub-sect">Product Strategy &amp; Revenue Growth</span>
+<ul>
+  <li>Architected and launched a funds management platform from the ground up &mdash; a multi-agent system for fund managers built on <b>AWS Bedrock</b> for agentic infrastructure and <b>Salesforce</b> for CRM workflows. Context-aware agents synthesize the user's current view, platform metadata, semantic memory, and investor activity using a shared task board to recommend which investors fund managers should prioritize for nurturing and conversion; opening a <b>new revenue stream</b> for VentureCrowd.</li>
+  <li>Engineered a proprietary <b>Likelihood-to-Invest Engine</b> that scores investors on conversion probability using regression analysis on CRM data enriched with location, demographics, interests (property, equity), education, and career history; helped the sales team prioritize outreach and contributed to <b>&gt;$2M in investments</b>.</li>
+  <li>Optimized the Founder onboarding funnel by architecting an <b>Agentic Data Enrichment layer</b> that autonomously ingests PDFs and scrapes relevant web sources to pre-populate venture profiles, cutting completion time from <b>4 hours to under 60 minutes</b>.</li>
+</ul>
+
+<span class="sub-sect">Technical Architecture &amp; Agentic Systems</span>
+<ul>
+  <li>Designed and deployed an <b>Agentic Email marketing system</b> with the marketing team using <b>CrewAI</b> &mdash; autonomously generates email variations, runs A/B tests on CTR and conversion, and iterates new variations from the top performers in an ongoing optimization loop, delivering a <b>15% increase in CTR</b> and saving <b>40+ hours weekly</b>.</li>
+  <li>Built an <b>AWS&harr;Salesforce integration layer</b> that exposes external data sources &mdash; AWS S3, Google Sheets, third-party marketing APIs &mdash; as <b>Agentforce-callable tools</b> via AWS Lambda and Salesforce External Services; empowered Salesforce users to build their own agents pulling cross-system data without engineering support, saving <b>10+ engineering hours weekly</b> and letting business teams ship new agent capabilities in days rather than sprints.</li>
+  <li>Deployed <b>Data Analysis Chatbots</b> in Agentforce that let internal teams query datasets living inside and outside Salesforce in natural language; <b>minimized hallucinations</b> by using pre-verified SQL templates where the LLM fills only validated slots, returning structured execution traces (aggregation, field, filter) for auditability, with Agentforce's compliance layer enforcing content safety and grounding; reduced cross-team reporting requests by <b>70%</b>.</li>
+  <li>Shipped a <b>Figma-to-LWC agent</b> that converts Figma designs into deployed Lightning Web Components: Slack frontend captures designer requests, AWS-hosted backend parses Figma JSON and uses an LLM to generate LWC code, then deploys via <b>Salesforce Metadata API</b> for live testing with <b>60% success rate</b>, saving <b>15+ developer hours weekly</b>.</li>
+</ul>
+
+<span class="sub-sect">Governance, LLMOps &amp; ROI Measurement</span>
+<ul>
+  <li>Implemented <b>Bedrock Guardrails</b> across the funds management platform; enforced real-time safety policies &mdash; content filters, denied topics, prompt injection detection, and PII redaction &mdash; to ensure 100% of LLM outputs met <b>Australian financial regulatory standards</b>.</li>
+  <li>Integrated <b>MLflow with CrewAI</b> to capture full reasoning traces across multi-agent workflows &mdash; prompts, tool calls, intermediate outputs, and final decisions &mdash; persisted in <b>Postgres and AWS S3</b>; established end-to-end auditability of agent decisions for internal audit and review.</li>
+  <li>Designed and launched <b>ROI Dashboards in Tableau</b> for executive and leadership visibility; surfaced real-time KPIs including wholesale conversion rates, capital raised, projected close dates based on current pace, and <b>Time-Saved-to-Dollar</b> efficiency metrics.</li>
+</ul>
+
+<div class="magnit-section">
+  <div class="exp-header">
+    <span class="company">Data Scientist <span class="pipe">|</span> Magnit Global <span class="pipe">|</span> India</span>
+    <span class="date">Jan 2021 &ndash; Jan 2023</span>
+  </div>
+  <span class="context">Executed end-to-end data science initiatives for a recruitment technology startup (acquired by Magnit Global).</span>
+
+  <ul>
+    <li>Created an autonomous chatbot to directly engage users and encourage resume submissions; <b>increased candidate applications by 25%</b> through automated top-of-funnel engagement.</li>
+    <li>Developed custom <b>Named Entity Recognition (NER)</b> models to extract specialized skills from unstructured data; achieved <b>90% precision</b> in professional experience mapping for the core engine.</li>
+    <li>Engineered a microservices architecture for a multi-directional matching system (Resume-to-Job, Job-to-Job, Resume-to-Resume) utilizing <b>Sentence-Transformers (SBERT)</b> and custom vector embeddings; <b>increased candidate discovery accuracy and relevance by 30%</b> compared to traditional keyword matching.</li>
+    <li>Architected and deployed matching algorithms as production-ready <b>REST APIs documented with OpenAPI/Swagger</b>; managed the full containerization and deployment lifecycle on <b>AWS</b>.</li>
+    <li>Led competitive analysis and performance benchmarking of 3rd-party AI models; delivered <b>"build-vs-buy" reports</b> to executive leadership that guided the long-term AI product roadmap.</li>
+    <li>Designed and implemented <b>ETL pipelines in PostgreSQL</b> using scheduled materialized views; drastically reduced dashboard load times for monitoring <b>conversion funnels, Time-to-Hire, and source tracking</b>.</li>
+  </ul>
+</div>
+
+<h2>Technical Skills</h2>
+
+<div class="skill-item">
+  <span class="category">AI &amp; Systems Architecture:</span> Multi-agent orchestration, LLM APIs (OpenAI, Anthropic), Agentic Frameworks (CrewAI), Guardrails (LlamaGuard, Bedrock Guardrails), RAG, LLMOps, MLflow, NLP, Deep Learning, Machine Learning
+</div>
+<div class="skill-item">
+  <span class="category">Cloud &amp; Infrastructure:</span> AWS (App Runner, DynamoDB, Cognito, CodeBuild, Bedrock, Fargate, Lambda, S3, API Gateway, ECS), Infrastructure as Code (IaC), CI/CD, Docker, GitOps, ETL Pipelines, Google Cloud Run, Google Artifact Registry, Vertex AI
+</div>
+<div class="skill-item">
+  <span class="category">Salesforce:</span> Agentforce, External Services, Flows, Lightning Web Components (LWC), Metadata API, External Integrations with Salesforce, Apex
+</div>
+<div class="skill-item">
+  <span class="category">Data Engineering &amp; Visualization:</span> Python, SQL, PostgreSQL, microservices architecture, Automations, Tableau
+</div>
+
+<h2>Education</h2>
+
+<div class="exp-header">
+  <span class="edu-header-plain">Master of Data Science <span class="pipe">|</span> Deakin University <span class="pipe">|</span> Melbourne</span>
+  <span class="date">July 2019 &ndash; July 2021</span>
+</div>
+
+<div class="exp-header">
+  <span class="edu-header-plain">Bachelor of Mechanical Engineering <span class="pipe">|</span> Osmania University <span class="pipe">|</span> India</span>
+  <span class="date">June 2014 &ndash; June 2018</span>
+</div>
+
+</body>
+</html>
